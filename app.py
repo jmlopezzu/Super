@@ -27,8 +27,7 @@ with col1:
     st.image(resized_image, caption='Transformación Digital Super', use_column_width=False)  
 with col2:
     st.image(resized_image1, caption='Super', use_column_width=False)    
-
-
+    
 st.sidebar.markdown("# Indice")
 st.sidebar.markdown("#### 1. ¿Que es Git? ")
 st.sidebar.markdown("#### 2. ¿Que es GitHub? ")
@@ -57,6 +56,10 @@ st.sidebar.markdown("#### 24. ¿Que es un merge conflict? ")
 st.sidebar.markdown("#### 25. ¿Que es un rebase conflict? ")
 st.sidebar.markdown("#### 26. ¿Que es un squash? ")
 st.sidebar.markdown("#### 27. ¿Que es un rebase interactivo? ")
+
+
+st.markdown("<h1 style='text-align: center;'> Links Importantes </h>", unsafe_allow_html=True)
+st.markdown("")
 
 st.markdown("<h1 style='text-align: center;'> Git </h>", unsafe_allow_html=True)
 st.markdown("<h4 style='text-align: center;'> https://git-scm.com/ </h4>", unsafe_allow_html=True)
